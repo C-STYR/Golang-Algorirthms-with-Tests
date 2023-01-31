@@ -1,1 +1,1 @@
-# Golang-Algorirthms-with-Tests
+# Golang-Algorithms-with-Tests
