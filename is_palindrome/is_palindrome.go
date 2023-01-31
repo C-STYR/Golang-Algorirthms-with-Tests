@@ -11,6 +11,6 @@ package is_palindrome
 */
 
 func isPalindrome(input string) bool {
-
-	return false
+  // your code here
+  return true
 }
