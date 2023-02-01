@@ -5,7 +5,7 @@ import (
 	"strings"
 )
 
-func _is_palindrome(input string) bool {
+func isPalindromeSolution(input string) bool {
 	// unify case
 	lowered := strings.ToLower(input)
 

@@ -18,7 +18,14 @@ var palindromeTests = []palindromeTest{
 func TestIsPalindrome(t *testing.T) {
 	for _, test := range palindromeTests {
 		if output := isPalindrome(test.arg1); output != test.expected {
-			t.Errorf("Result %s not equal to expected %t", test.arg1, test.expected)
+			t.Errorf("For test case '%s', got %t but expected %t", test.arg1, output, test.expected)
+		}
+	}
+}
+func TestIsPalindromeSolution(t *testing.T) {
+	for _, test := range palindromeTests {
+		if output := isPalindromeSolution(test.arg1); output != test.expected {
+			t.Errorf("For test case '%s', got %t but expected %t", test.arg1, output, test.expected)
 		}
 	}
 }
